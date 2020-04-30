@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .navTop {
+            width: 100%;
+            height: 30px;
+            background-color: brown;
+
+        }
+
+        .nav1 {
+            width: 100%;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navLeft,
+        .navRight {
+            display: flex;
+            justify-content: space-around;
+            width: 20%;
+            line-height: 60px;
+
+        }
+
+        .logo {
+            background: pink;
+            color: brown;
+            margin-left: 40px;
+            margin-right: 40px;
+            line-height: 60px;
+        }
+
+        .nav1 item {
+            text-align: center;
+            padding-right: 30px;
+            width: 30%;
+        }
+
+        .blockOne {
+            width: 100%;
+            background: #000;
+            color: #fff;
+            height: 500px;
+            position: relative;
+        }
+
+        .bannerWord {
+            padding: 100px;
+        }
+
+        .bannerWord>h6 {
+            margin-bottom: 20px;
+        }
+
+        .bannerWord>.btn2bug {
+            width: 200px;
+            height: 50px;
+            border: 1px solid #fff;
+            color: #fff;
+            background: none;
+            margin-top: 20px;
+        }
+
+        .bannerWord>.btn2bug:hover {
+            text-decoration: underline;
+        }
+
+        .blockOne>.bannerbottom {
+            position: absolute;
+            bottom: 40px;
+            right: 50px;
+        }
+
+
+
+        .bannerbottom>p {
+            margin-bottom: 30px;
+            margin-top: 10px;
+        }
+
+        .blockTwo {
+            width: 80%;
+            margin: 20px auto;
+            position: relative;
+        }
+
+        .blockTwo .photos {
+            /* background: #999; */
+            margin-top: 20px;
+            height: 500px;
+            display: flex;
+            /* border: 1px solid #333; */
+        }
+
+
+        .leftpic {
+            width: 50%;
+            height: 100%;
+            box-sizing: border-box;
+
+        }
+
+        .leftpic>.toppic {
+            width: 100%;
+            height: 50%;
+            box-sizing: border-box;
+            border: 1px solid #fff;
+            background-color: brown;
+
+        }
+
+        .rightpic {
+            width: 50%;
+            height: 100%;
+            box-sizing: border-box;
+            border: 1px solid #fff;
+            background-color: #444;
+        }
+
+        .photos>.pic1 {
+            width: 25%;
+            background: #888;
+            border: 1px solid red;
+            height: 100%;
+        }
+
+        .leftpic>.smallbox {
+            width: 100%;
+            height: 50%;
+            box-sizing: border-box;
+            display: flex
+        }
+
+        .smallbox>.pic1,
+        .smallbox>.pic2 {
+            width: 50%;
+            width: 100%;
+            border: 1px solid #fff;
+            background-color: grey;
+        }
+
+        .blockTwo ul {
+            position: absolute;
+            right: 0;
+            top: 0;
+            display: flex;
+        }
+
+        .blockTwo li {
+            margin-left: 30px;
+            line-height: 30px;
+            color: #999;
+        }
+
+        .blockTwo li:hover {
+            border-bottom: 2px solid brown;
+        }
+
+        .foot {
+            width: 100%;
+            height: 500px;
+            background-color: #eee;
+        }
+
+        .foot .container {
+            width: 80%;
+            margin: 30px auto;
+            padding: 30px;
+            display:flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <div class="navTop"></div>
+        <div class="nav1">
+            <ul class="navLeft">
+                <li class="item">LADIES</li>
+                <li class="item">MEN</li>
+                <li class="item">KIDS</li>
+            </ul>
+            <div class="logo">h&m</div>
+            <ul class="navRight">
+                <li class="item">HOME</li>
+                <li class="item">SALE</li>
+                <li class="item">H&M LIFE</li>
+            </ul>
+        </div>
+    </div>
+    <div class="body">
+        <div class="blockOne">
+            <div class="bannerWord">
+                <h6>BECKHAM AND HM</h6>
+                <h1>NEW</h1>
+                <h1>Collection</h1>
+                <button class="btn2bug">BROWSE COLLECTION</button>
+            </div>
+            <div class="bannerbottom">
+                <h3>BECKHAM and H&M</h3>
+                <h3>BECKHAM and H&M</h3>
+                <p>In his Paris studio,creative director Olivier Roust</p>
+                <span>read more</span>
+            </div>
+        </div>
+        <div class="blockTwo">
+            <div class="title">
+                <h2>Featured</h2>
+                <ul>
+                    <li>1nav</li>
+                    <li>2nav</li>
+                    <li>3nav</li>
+                </ul>
+                <div class="photos">
+                    <div class="leftpic">
+                        <div class="toppic"></div>
+                        <div class="smallbox">
+                            <div class="pic1"></div>
+                            <div class="pic2"></div>
+                        </div>
+
+                    </div>
+                    <div class="rightpic"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foot">
+        <div class="container">
+            <ul>
+                <li>1li</li>
+                <li>2li</li>
+                <li>3li</li>
+                <li>4li</li>
+            </ul>
+            <ul>
+                <li>1li</li>
+                <li>2li</li>
+                <li>3li</li>
+                <li>4li</li>
+            </ul>
+            <ul>
+                <li>1li</li>
+                <li>2li</li>
+                <li>3li</li>
+                <li>4li</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

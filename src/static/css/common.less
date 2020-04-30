@@ -1,0 +1,99 @@
+@import '~antd/dist/antd.css';
+// REM
+html{
+    font-size:100px;
+}
+#root{
+    margin:0 auto;
+    max-width:750px;
+    
+}
+.headerNavBox{
+    @BG:#ec22a9;
+
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:99;
+    width: 100%;
+    height:1.12rem;
+    background:@BG;
+    line-height: 1.12rem;
+    color:#fff;
+    .homeBox{
+        height:100%;
+
+        .baseBox{
+            position: relative;
+            height:100%;
+
+            .logo{
+                position: absolute;
+                top:50%;
+                margin-top: -0.51rem;
+                width:2.1rem;
+                // margin-left: 0.16rem;
+                font-size: 0;
+                background: url('../img/logo.png') no-repeat;
+                background-size: 100% 100%;
+            }
+            .icon{
+                position: absolute;
+                right:0.3rem;
+                top:50%;
+                margin-top: -.3rem;
+            }
+        }
+        .filterBox{
+            position: absolute;
+            padding:0 .56rem;
+            background: @BG;
+            width:100%;
+            top:1.1rem;
+            left:0;
+            z-index:99;
+            li{
+                line-height: 1.12rem;
+                text-align:center;
+                color:#fff;
+                font-size: .32rem;
+                border-top: .02rem solid lighten(@BG,20%);
+            }
+        }
+        
+
+    }
+}
+//NAV-BOTTOM
+.footerNavBox{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    z-index: 99;
+    height:1.06rem;
+    line-height: 1.06rem;
+    border-top: .02rem solid #d5d5d5;
+    display: flex;
+    color:#2d2d2d;
+    .a{
+        flex:1;
+        text-align: center;
+        span{
+            display:block;
+            height:.5rem;
+            line-height: .5rem;
+            font-size:.2rem;
+            margin-top: -.1rem;
+        }
+        &.active{
+            color:#ec22a9;
+            font-weight: bold;
+        }
+    }
+
+}
+// CONTAINER
+.container{
+    padding:1.12rem 0 1.08rem 0;
+}

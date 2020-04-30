@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.less"],"names":[],"mappings":"AAEA,KACI,cAAA,CACA,UADJ","file":"main.32980d14.chunk.css","sourcesContent":["@bg: pink;\n\n.box {\n    font-size: 20px;\n    color: @bg;\n}"]}

@@ -6,7 +6,7 @@ import {HomeOutlined,ReadOutlined,UserOutlined } from '@ant-design/icons'
 class NavBottom extends React.Component{
    
     render(){
-        return  <footer className='footerNavBox'>
+        return  <footer className='footerNavBox' style={{backgroundColor:'#fff'}}>
               <NavLink to='/course' className='a'> 
               <HomeOutlined style={{fontSize:'.4rem' ,marginTop:'.1rem'}}/>
                 <span>首页</span>

@@ -4,6 +4,7 @@ import {withRouter} from 'react-router-dom'
 import {Button} from 'antd'
 import {exitLogin} from '../../api/person'
 import action from '../../store/action/index'
+
 class Info extends React.Component{
     constructor(props,context){
         super(props,context)

@@ -39,7 +39,7 @@ async componentWillReceiveProps(){
                 }}/>
                 <Route path='/person/login' component={Login}></Route>
                 <Route path='/person/register' component={Register}></Route>
-                <Redirect from='person' to='/person/info' />
+                <Redirect from={'person'}  to={'/person/info'} />
             </Switch>
             </section>
     }

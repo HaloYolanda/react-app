@@ -2,6 +2,7 @@ import React from 'react'
 import {connect} from 'react-redux'
 import { Alert,Button } from 'antd'
 import {withRouter} from 'react-router-dom'
+
 class Tip extends React.Component{
    
     render(){

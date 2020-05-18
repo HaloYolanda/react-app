@@ -1,6 +1,10 @@
 # Adobe Study Space [REACT]
 ### 技术栈：AntDesign + JavaScript + React + Redux  + Express
-
+```
+运行命令：
+- 1.cnpm i / npm i
+- 2.yarn start 
+```
 - 首页
 <img src="imgs4readMe/home.png" />
 - 我的课程
